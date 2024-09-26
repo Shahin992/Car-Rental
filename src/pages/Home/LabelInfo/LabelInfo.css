@@ -1,0 +1,6 @@
+.bg-container {
+    background-image: url('/src/assets//image/second-parallax-block.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
