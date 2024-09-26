@@ -2,7 +2,6 @@
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import { useLoginUserMutation } from "../../redux/features/auth/authApi";
-import { toast } from "sonner";
 import { useAppDispatch } from "../../redux/app/hook";
 import { signUser } from "../../redux/features/auth/authSlice";
 

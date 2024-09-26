@@ -7,14 +7,12 @@ import {
 } from "../../../../redux/features/book/bookSlice";
 import { Button } from "antd";
 
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const BookingForm = () => {
   const useBooked: any = useAppSelector(useBookedCar);
   const dispatch = useAppDispatch();
   const navigate = useNavigate();
-  const location = useLocation();
-  const car = location.state?.car;
   const {
     register,
     handleSubmit,

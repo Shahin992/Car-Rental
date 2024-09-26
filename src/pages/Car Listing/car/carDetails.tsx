@@ -54,8 +54,8 @@ const CarDetails = () => {
 
         <figure>
           <InnerImageZoom
-            src={car?.image}
-            zoomSrc={car?.image}
+            src={car?.image as string}
+            zoomSrc={car?.image as string}
             zoomType="hover"
             zoomScale={1.5}
           />
